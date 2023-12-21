@@ -1,0 +1,28 @@
+.tweet-list {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tweet {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+.tweet.liked {
+  background-color: #f0f5ff;
+}
+
+.tweet button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #f0f5ff;
+  cursor: pointer;
+}
+
+.liked-counter {
+  margin-top: 10px;
+  font-weight: bold;
+}
